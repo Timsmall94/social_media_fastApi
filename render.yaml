@@ -1,3 +1,8 @@
+databases:
+  - name: dpg-cj38k7enqql8v0f6pao0-a
+    databaseName: mydb_zs8r_user
+    user: mydb_zs8r_user
+
 services:
   # A Docker web service
   - type: web
@@ -6,4 +11,4 @@ services:
     plan: free
     autoDeploy: false
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT

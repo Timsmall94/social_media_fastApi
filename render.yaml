@@ -1,7 +1,4 @@
-databases:
-  - name: dpg-cj38k7enqql8v0f6pao0-a
-    databaseName: mydb_zs8r_user
-    user: mydb_zs8r_user
+
 
 services:
   # A Docker web service

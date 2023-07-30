@@ -35,3 +35,4 @@ starlette==0.17.1
 typing_extensions==4.1.1
 uvicorn==0.17.6
 Werkzeug==2.1.1
+fastapi[all]
